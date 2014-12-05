@@ -21,7 +21,7 @@ Package: cervisia
 Architecture: any
 Section: devel
 Depends: cvsservice, ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: graphical CVS client
  Cervisia is a front-end for the CVS version control system client.
  .
