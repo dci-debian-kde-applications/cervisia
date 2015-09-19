@@ -1,6 +1,7 @@
 cervisia (4:15.08.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.1).
+  * Add libsoprano-dev build dep.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:47:08 +0200
 
