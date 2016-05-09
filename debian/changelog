@@ -1,3 +1,11 @@
+cervisia (4:15.12.0-2~1.gbp48a9fe) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @48a9fe24a44ae6851fb5c59bffac098c63868283 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:56:57 +0200
+
 cervisia (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
