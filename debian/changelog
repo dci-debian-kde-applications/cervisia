@@ -1,17 +1,13 @@
-cervisia (4:15.12.0-2~2.gbp9adddb) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @9adddbdc32caa5d11f2be3aab605cf18a2e59c5b **
+cervisia (4:15.12.0-2) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @48a9fe24a44ae6851fb5c59bffac098c63868283 **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:54:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 15:40:47 +0200
 
 cervisia (4:15.12.0-1) experimental; urgency=medium
 
