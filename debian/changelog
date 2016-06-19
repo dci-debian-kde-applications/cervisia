@@ -1,10 +1,8 @@
-cervisia (4:16.04.2-1~1.gbp0e8e03) UNRELEASED; urgency=medium
+cervisia (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0e8e0312389a37cdb3eeae10640d4da1b3c118d9 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:54:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 11:04:56 +0200
 
 cervisia (4:15.12.0-2) unstable; urgency=medium
 
