@@ -1,8 +1,19 @@
-cervisia (4:16.04.1-0neon) xenial; urgency=medium
+cervisia (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release.
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:11:09 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 11:04:56 +0200
+
+cervisia (4:15.12.0-2) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 15:40:47 +0200
 
 cervisia (4:15.12.0-1) experimental; urgency=medium
 
