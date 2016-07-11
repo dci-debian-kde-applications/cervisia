@@ -1,9 +1,8 @@
 usr/bin/cvsaskpass
-usr/bin/cvsservice
-usr/lib/libkdeinit4_cvsaskpass.so
-usr/lib/libkdeinit4_cvsservice.so
-usr/share/dbus-1/interfaces/org.kde.cervisia.cvsjob.xml
-usr/share/dbus-1/interfaces/org.kde.cervisia.cvsloginjob.xml
-usr/share/dbus-1/interfaces/org.kde.cervisia.cvsservice.xml
-usr/share/dbus-1/interfaces/org.kde.cervisia.repository.xml
-usr/share/kde4/services/cvsservice.desktop
+usr/bin/cvsservice5
+usr/lib/x86_64-linux-gnu/libkdeinit5_cvsservice.so
+usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsjob.xml
+usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
+usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
+usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
+usr/share/kservices5/org.kde.cvsservice5.desktop

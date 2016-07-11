@@ -9,9 +9,16 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.6~),
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               libsoprano-dev,
+               extra-cmake-modules,
+               kdoctools-dev,
+               kinit-dev,
+               libkf5config-dev,
+               libkf5iconthemes-dev,
+               libkf5itemviews-dev,
+               libkf5notifications-dev,
+               libkf5parts-dev,
+               libkf5su-dev,
+               libkf5widgetsaddons-dev,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
