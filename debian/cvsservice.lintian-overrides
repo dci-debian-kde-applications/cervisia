@@ -1,2 +1,3 @@
 cvsservice: package-name-doesnt-match-sonames libkdeinit5-cvsservice
 cvsservice: shlib-without-versioned-soname usr/lib/*/libkdeinit5_cvsservice.so libkdeinit5_cvsservice.so
+cvsservice: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_cvsservice.so
