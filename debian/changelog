@@ -1,3 +1,11 @@
+cervisia (4:16.08.0-1~1.gbpc9d956) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c9d9565008337108322c54fcbb93e377d4bdda80 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:54:15 +0200
+
 cervisia (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
