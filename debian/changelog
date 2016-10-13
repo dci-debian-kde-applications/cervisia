@@ -1,6 +1,6 @@
-cervisia (4:16.08.1-1~1.gbpaaa196) UNRELEASED; urgency=medium
+cervisia (4:16.08.2-1~1.gbp7a9b83) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @aaa196b198b3152662087ebfcef4478a1210c854 **
+  ** SNAPSHOT build @7a9b831508c2670c2bbaa8c76f1abd157834fed3 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @c9d9565008337108322c54fcbb93e377d4bdda80 **
@@ -11,8 +11,9 @@ cervisia (4:16.08.1-1~1.gbpaaa196) UNRELEASED; urgency=medium
   * Update build dependencies
   * Update install files
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:54:38 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 23:54:30 +0200
 
 cervisia (4:16.04.2-1) unstable; urgency=medium
 
