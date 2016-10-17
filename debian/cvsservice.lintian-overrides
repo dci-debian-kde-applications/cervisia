@@ -1,0 +1,2 @@
+package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_cvsservice.so
+
