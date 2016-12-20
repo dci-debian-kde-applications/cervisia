@@ -39,8 +39,8 @@ usr/share/icons/hicolor/scalable/actions/vcs-diff-cvs-cervisia.svgz
 usr/share/icons/hicolor/scalable/actions/vcs-remove-cvs-cervisia.svgz
 usr/share/icons/hicolor/scalable/actions/vcs-status-cvs-cervisia.svgz
 usr/share/icons/hicolor/scalable/actions/vcs-update-cvs-cervisia.svgz
+usr/share/knotifications5/cervisia.notifyrc
 usr/share/kservices5/org.kde.cervisiapart5.desktop
-usr/share/kxmlgui5/cervisia/cervisia.notifyrc
 usr/share/kxmlgui5/cervisia/cervisiashellui.rc
 usr/share/kxmlgui5/cervisiapart/cervisiaui.rc
 usr/share/man/man1/cervisia.1
