@@ -1,7 +1,7 @@
 usr/bin/cervisia
-usr/lib/x86_64-linux-gnu/libkdeinit5_cervisia.so
-usr/lib/x86_64-linux-gnu/libkdeinit5_cvsaskpass.so
-usr/lib/x86_64-linux-gnu/qt5/plugins/cervisiapart5.so
+usr/lib/*/libkdeinit5_cervisia.so
+usr/lib/*/libkdeinit5_cvsaskpass.so
+usr/lib/*/qt5/plugins/cervisiapart5.so
 usr/share/applications/org.kde.cervisia5.desktop
 usr/share/config.kcfg/cervisiapart.kcfg
 usr/share/doc/HTML/en/cervisia/
