@@ -43,5 +43,6 @@ usr/share/knotifications5/cervisia.notifyrc
 usr/share/kservices5/org.kde.cervisiapart5.desktop
 usr/share/kxmlgui5/cervisia/cervisiashellui.rc
 usr/share/kxmlgui5/cervisiapart/cervisiaui.rc
+usr/share/locale/*/LC_MESSAGES/cervisia.mo
 usr/share/man/man1/cervisia.1
 usr/share/metainfo/org.kde.cervisia.appdata.xml
