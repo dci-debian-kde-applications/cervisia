@@ -2,7 +2,7 @@ usr/bin/cervisia
 usr/lib/*/libkdeinit5_cervisia.so
 usr/lib/*/libkdeinit5_cvsaskpass.so
 usr/lib/*/qt5/plugins/cervisiapart5.so
-usr/share/applications/org.kde.cervisia5.desktop
+usr/share/applications/org.kde.cervisia.desktop
 usr/share/config.kcfg/cervisiapart.kcfg
 usr/share/doc/HTML/en/cervisia/
 usr/share/icons/hicolor/16x16/actions/vcs-add-cvs-cervisia.png
