@@ -2,7 +2,6 @@ usr/bin/cervisia
 usr/lib/*/libkdeinit5_cervisia.so
 usr/lib/*/libkdeinit5_cvsaskpass.so
 usr/lib/*/qt5/plugins/cervisiapart5.so
-usr/share/metainfo/org.kde.cervisia.appdata.xml
 usr/share/applications/org.kde.cervisia.desktop
 usr/share/config.kcfg/cervisiapart.kcfg
 usr/share/doc/HTML/*/cervisia/
