@@ -1,10 +1,11 @@
 usr/bin/cervisia
 usr/lib/*/libkdeinit5_cervisia.so
+usr/lib/*/libkdeinit5_cvsaskpass.so
 usr/lib/*/qt5/plugins/cervisiapart5.so
 usr/share/appdata/org.kde.cervisia.appdata.xml
 usr/share/applications/org.kde.cervisia5.desktop
 usr/share/config.kcfg/cervisiapart.kcfg
-usr/share/doc/HTML/en/cervisia/
+usr/share/doc/HTML/*/cervisia/
 usr/share/icons/hicolor/*/actions/vcs-add-cvs-cervisia.*
 usr/share/icons/hicolor/*/actions/vcs-commit-cvs-cervisia.*
 usr/share/icons/hicolor/*/actions/vcs-diff-cvs-cervisia.*
@@ -15,4 +16,8 @@ usr/share/icons/hicolor/*/apps/cervisia.*
 usr/share/kservices5/org.kde.cervisiapart5.desktop
 usr/share/kxmlgui5/cervisia/
 usr/share/kxmlgui5/cervisiapart/cervisiaui.rc
+usr/share/knotifications5/cervisia.notifyrc
+usr/share/locale/*/LC_MESSAGES/cervisia.mo
+usr/share/man/*/man1/cervisia.1
 usr/share/man/man1/cervisia.1
+usr/share/metainfo/org.kde.cervisia.appdata.xml

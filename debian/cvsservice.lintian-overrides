@@ -1,2 +1,4 @@
 package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_cvsservice.so
-
+package-name-doesnt-match-sonames libkdeinit5-cvsservice
+shlib-without-versioned-soname usr/lib/*/libkdeinit5_cvsservice.so libkdeinit5_cvsservice.so
+postinst-must-call-ldconfig usr/lib/*/libkdeinit5_cvsservice.so

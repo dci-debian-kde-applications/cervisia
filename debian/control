@@ -12,6 +12,7 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 1.3.0~),
                libkf5doctools-dev,
                kinit-dev,
+               libkf5config-dev,
                libkf5iconthemes-dev,
                libkf5itemviews-dev,
                libkf5notifications-dev,
@@ -28,8 +29,10 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/cervisia.git
 Package: cervisia
 Architecture: any
 Section: devel
-Depends: cvsservice, ${misc:Depends}, ${shlibs:Depends}
+Depends: cvsservice (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter
+Breaks: ${kde-l10n:all}, cvsservice (<< 4:17.08~)
+Replaces: ${kde-l10n:all}, cvsservice (<< 4:17.08~)
 Description: graphical CVS client
  Cervisia is a front-end for the CVS version control system client.
  .
@@ -45,8 +48,8 @@ Package: cvsservice
 Architecture: any
 Section: vcs
 Depends: cvs, ${misc:Depends}, ${shlibs:Depends}
-Replaces: libcvsservice0
-Breaks: libcvsservice0
+Replaces: libcvsservice0, ${kde-l10n:all}
+Breaks: libcvsservice0, ${kde-l10n:all}
 Description: D-Bus service for accessing CVS repositories
  This package provides a D-Bus service for browsing and manipulating
  remote CVS repositories.  Applications may make use of it directly from

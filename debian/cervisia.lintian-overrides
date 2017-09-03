@@ -1,1 +1,5 @@
 package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_cervisia.so
+package-name-doesnt-match-sonames libkdeinit5-cervisia libkdeinit5-cvsaskpass
+shlib-without-versioned-soname usr/lib/*/libkdeinit5_cvsaskpass.so libkdeinit5_cvsaskpass.so
+shlib-without-versioned-soname usr/lib/*/libkdeinit5_cervisia.so libkdeinit5_cervisia.so
+postinst-must-call-ldconfig usr/lib/*/libkdeinit5_cvsaskpass.so
