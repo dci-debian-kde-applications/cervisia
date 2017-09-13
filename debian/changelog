@@ -1,11 +1,13 @@
-cervisia (4:17.08.0-1~) UNRELEASED; urgency=medium
+cervisia (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
   * Update install files
+  * Update lintian-override
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 18:00:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Sep 2017 15:44:04 +0200
 
 cervisia (4:17.08.0-0neon) xenial; urgency=medium
 
