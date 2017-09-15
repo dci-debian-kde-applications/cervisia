@@ -13,7 +13,7 @@ description: |-
 confinement: strict
 grade: stable
 apps:
-    kexi:
+    cervisia:
         command: kf5-launch cervisia
         plugs:
         - kde-frameworks-5-plug
