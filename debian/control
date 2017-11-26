@@ -30,8 +30,8 @@ Architecture: any
 Section: devel
 Depends: cvsservice (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter
-Breaks: cvsservice (<< 4:17.08~), ${kde-l10n:all}
-Replaces: cvsservice (<< 4:17.08~), ${kde-l10n:all}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: graphical CVS client
  Cervisia is a front-end for the CVS version control system client.
  .
