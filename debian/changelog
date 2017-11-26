@@ -9,6 +9,7 @@ cervisia (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will drop
     translations.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:19 +0100
 
@@ -200,18 +201,18 @@ cervisia (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 cervisia (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
-  * Fix Watch file applications locations 
-  * Fix VCS for new kde-applications location 
+  * Fix Watch file applications locations
+  * Fix VCS for new kde-applications location
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 08:27:20 -0800
 
 cervisia (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
    - Added a not-installed for the libkdeinit4* files installed
      by dh_movelibkdeinit and the manpage that is installed.
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 22 Nov 2014 07:12:05 +0000
 
@@ -511,7 +512,7 @@ cervisia (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
   * New upstream bugfix release
     - update append_kde.diff for new script folder name
     - adjust cervisia-scripts.examples for new script folder name
-    - Add a new and drop a missing private symbol from 
+    - Add a new and drop a missing private symbol from
       libkasten2okteta1controllers1.symbols
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:43:04 +0000
@@ -576,7 +577,7 @@ cervisia (4:4.9.1-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Change sonames from 4.9.0 to 4.9.* 
+  * Change sonames from 4.9.0 to 4.9.*
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:27:36 +0530
 
@@ -683,7 +684,7 @@ cervisia (4:4.8.3-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Switch boost build-dep to 1.49 
+  * Switch boost build-dep to 1.49
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 14 May 2012 21:51:58 +0200
 
@@ -701,7 +702,7 @@ cervisia (4:4.8.2-0ubuntu1) precise; urgency=low
 
 cervisia (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
     - update lokalize.install
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 19:29:09 +0100
@@ -763,7 +764,7 @@ cervisia (4:4.7.4-2) experimental; urgency=low
 cervisia (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest to 4:4.7.4.
   * Make this source package build properly with big endian architectures:
@@ -782,7 +783,7 @@ cervisia (4:4.7.4-1) experimental; urgency=low
 cervisia (4:4.7.3-0ubuntu1) precise; urgency=low
 
   * New upstream release
-  * Merge from Debian Git. Remaining changes: 
+  * Merge from Debian Git. Remaining changes:
     - Use versioned boost build-depends
     - cervisia-scripts depends on pkg-kde-tools
     - Don't install the following files in cervisia-scripts:
@@ -888,14 +889,14 @@ cervisia (4:4.7.0-0ubuntu1) oneiric; urgency=low
   * Update symbols files.
 
   [ Philip Muškovac ]
-  * New upstream release 
+  * New upstream release
     - update okteta-dev.install again
 
  -- Philip Muškovac <yofel@kubuntu.org>  Thu, 28 Jul 2011 17:16:54 +0200
 
 cervisia (4:4.6.90-1ubuntu1) oneiric; urgency=low
 
-  * New upstream release candidate 
+  * New upstream release candidate
     - bump kde-sc-dev-latest depends to 4:4.6.90
     - fix cervisia-dbg to depend on kde-runtime-dbg
     - Update Vcs lines for new location
@@ -910,20 +911,20 @@ cervisia (4:4.6.90-1ubuntu1) oneiric; urgency=low
 
 cervisia (4:4.6.3-1ubuntu1) oneiric; urgency=low
 
-  * Merge from debian unstable. Remaining changes: 
+  * Merge from debian unstable. Remaining changes:
     - Use versioned boost build-depends
     - cervisia-scripts depends on pkg-kde-tools
     - Don't install the following files in cervisia-scripts:
       - extractattr
       - extractrc
     - Add kate-dev package
-  * Update Vcs links as the branch is owned by kubuntu-packagers now 
+  * Update Vcs links as the branch is owned by kubuntu-packagers now
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 03 Jun 2011 10:53:58 +0200
 
 cervisia (4:4.6.3-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
@@ -993,7 +994,7 @@ cervisia (4:4.6.2-1) experimental; urgency=low
     - and remove cdbs from Build-Depends.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Add myself to Uploaders.
-  
+
   [ Pino Toscano ]
   * Add build dependency on libqca2-dev.
   * Do not ship kdesrc-build with cervisia-scripts, it is packaged separately.
@@ -1861,7 +1862,7 @@ cervisia (4:4.2.0-1) experimental; urgency=low
 
 cervisia (4:4.1.96-0ubuntu2) jaunty; urgency=low
 
-  * Correct /usr/share/man/man1/cvsrevertlast.1 line in 
+  * Correct /usr/share/man/man1/cvsrevertlast.1 line in
     cervisia-scripts.install which casued FTBFS on this package
 
  -- Steve Stalcup <vorian@ubuntu.com>  Wed, 14 Jan 2009 20:53:32 -0500
@@ -1876,7 +1877,7 @@ cervisia (4:4.1.96-0ubuntu1) jaunty; urgency=low
 
 cervisia (4:4.1.85-0ubuntu2) jaunty; urgency=low
 
-  * Drop kaider-kde4 transitional package - no longer needed 
+  * Drop kaider-kde4 transitional package - no longer needed
 
  -- Scott Kitterman <scott@kitterman.com>  Tue, 30 Dec 2008 23:18:35 -0500
 
@@ -1924,7 +1925,7 @@ cervisia (4:4.1.2-1ubuntu4) jaunty; urgency=low
 
 cervisia (4:4.1.2-1ubuntu3) jaunty; urgency=low
 
-  * Add build-dep on kdelibs5-dev, needed until dh_sameversiondeps 
+  * Add build-dep on kdelibs5-dev, needed until dh_sameversiondeps
     rebuilds kdepimlibs
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Nov 2008 10:43:18 +0000
@@ -2130,7 +2131,7 @@ cervisia (4:4.0.83-0ubuntu3) intrepid; urgency=low
 
 cervisia (4:4.0.83-0ubuntu2) intrepid; urgency=low
 
-  * cervisia-scripts Suggests qt4-doc (LP: #220664) 
+  * cervisia-scripts Suggests qt4-doc (LP: #220664)
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Wed, 25 Jun 2008 17:01:52 +0200
 
@@ -2389,7 +2390,7 @@ cervisia (4:3.5.8-1ubuntu1) hardy; urgency=low
 cervisia (4:3.5.8-1) unstable; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * New upstream release:
     - Patches: remove 01_branches_umbrello_update_1.5.71, merged upstream.
   * Update *.install files.
@@ -2420,9 +2421,9 @@ cervisia (4:3.5.7-3) unstable; urgency=low
   * Implement the use of uploaders.mk and update uploaders.
   * Pull newer umbrello release in. (Closes: 428059). Thanks to Eric Valette
     for his friendly attitude.
-  * Don't think that all gnu triplets end with gnu on glibc based systems. 
-    We also have gnueabi for new arm eabi and the different newer mipsen 
-    also doesn't end with -gnu. Thanks to Aurelien Jarno for the bug report 
+  * Don't think that all gnu triplets end with gnu on glibc based systems.
+    We also have gnueabi for new arm eabi and the different newer mipsen
+    also doesn't end with -gnu. Thanks to Aurelien Jarno for the bug report
     and a suggested fix. (Closes: 431346)
   * Update buildprep.
 
@@ -2430,7 +2431,7 @@ cervisia (4:3.5.7-3) unstable; urgency=low
 
 cervisia (4:3.5.7-2) unstable; urgency=low
 
-  * Install new images in kompare documentation. Thanks to Jonathan Riddell 
+  * Install new images in kompare documentation. Thanks to Jonathan Riddell
     for the pointer.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 23 May 2007 22:03:38 +0100
@@ -2475,14 +2476,14 @@ cervisia (4:3.5.6-2) unstable; urgency=low
 cervisia (4:3.5.6-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Josh Metzler:
 
   * Make cervisia-dbg depend on kdelibs-dbg to get useful backtraces when
     debugging.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Update Uploaders.
   * Drop patch 07_support_automake1-10, merged upstream.
 
@@ -2600,7 +2601,7 @@ cervisia (4:3.5.4-0ubuntu3) edgy; urgency=low
 cervisia (4:3.5.4-0ubuntu2) edgy; urgency=low
 
   * Add desktop i18n scripts to /usr/lib/kubuntu-desktop-i18n/
-    for building packages, see 
+    for building packages, see
     https://launchpad.net/distros/ubuntu/+spec/langpacks-desktopfiles-kde
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed,  2 Aug 2006 10:42:16 +0000
@@ -2675,7 +2676,7 @@ cervisia (4:3.5.0-2) experimental; urgency=low
   * KDE_3_5_BRANCH update (up to r490305).
 
   +++ Changes by Christopher Martin:
- 
+
   * Improve kapptemplate's admin directory, setting proper permissions on the
     scripts and removing files that are artifacts of the Debian build system.
     (Closes: #343678)
@@ -2781,7 +2782,7 @@ cervisia (4:3.5-rc2-0ubuntu1) dapper; urgency=low
 cervisia (4:3.4.2-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
-  * Build-dep on g++-3.4 on arm, hppa and m68k (closes:#330934). 
+  * Build-dep on g++-3.4 on arm, hppa and m68k (closes:#330934).
 
  -- Luk Claes <luk@debian.org>  Sat,  1 Oct 2005 20:21:41 +0200
 
@@ -2904,14 +2905,14 @@ cervisia (4:3.4.0-0ubuntu4) hoary; urgency=low
 
 cervisia (4:3.4.0-0ubuntu3) hoary; urgency=low
 
-  * added empty empty patches 
+  * added empty empty patches
 
  -- Andreas Mueller <amu@ubuntu.com>  Wed, 23 Mar 2005 10:46:56 +0000
 
 cervisia (4:3.4.0-0ubuntu2) hoary; urgency=low
 
   * fixed broken patchdir
-  * added KDE branch patches   
+  * added KDE branch patches
 
  -- Andreas Mueller <amu@ubuntu.com>  Tue, 22 Mar 2005 20:57:56 +0000
 
@@ -3349,7 +3350,7 @@ cervisia (2.1.1-6) unstable; urgency=low
  -- Ben Burton <benb@acm.org>  Sun, 29 Apr 2001 15:52:54 -0500
 
 cervisia (2.1.1-5) unstable; urgency=low
- 
+
   * Updated Standards-Version to 3.5.2.
   * Added kderemove="1" to the debian menu items.
   * Reformatted and fleshed out man pages.
@@ -3406,9 +3407,9 @@ cervisia (2.1.1-1) unstable; urgency=low
  -- Ben Burton <benb@acm.org>  Mon, 26 Mar 2001 09:10:56 -0600
 
 cervisia (2.1.0-1) unstable; urgency=low
- 
+
   * New upstream CVS pull
- 
+
  -- Ivan E. Moore II <rkrusty@debian.org>  Wed, 07 Mar 2001 02:00:00 -0700
 
 cervisia (2.1-final-1.1) unstable; urgency=low
@@ -3419,9 +3420,9 @@ cervisia (2.1-final-1.1) unstable; urgency=low
  -- Ivan E. Moore II <rkrusty@debian.org>  Thu, 01 Mar 2001 00:10:00 -0700
 
 cervisia (2.1-final-1) unstable; urgency=low
- 
+
   * New upstream version
- 
+
  -- Ivan E. Moore II <rkrusty@debian.org>  Mon, 19 Feb 2001 02:00:00 +0100
 
 cervisia (2.1-beta2-2) unstable; urgency=low
@@ -3433,8 +3434,8 @@ cervisia (2.1-beta2-2) unstable; urgency=low
  -- Mariusz Przygodzki <dune@home.pl>  Sat, 27 Jan 2001 17:18:53 +0100
 
 cervisia (2.1-beta2-1) unstable; urgency=low
- 
+
   * New upstream beta
- 
+
  -- Ivan E. Moore II <rkrusty@debian.org>  Fri, 26 Jan 2001 18:00:00 -0700
 
