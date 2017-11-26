@@ -12,6 +12,7 @@ cervisia (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove trailing whitespaces in changelog.
   * Remove breaks/replaces in cervisia against older versions of cvsservice:
     cervisia already requires the very same version of cvsservice.
+  * Rename the local cvsservice man page to cvsservice5.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:19 +0100
 
