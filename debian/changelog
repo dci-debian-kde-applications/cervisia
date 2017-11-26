@@ -16,6 +16,7 @@ cervisia (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Move few cvsaskpass bits from cervisia to cvsservice, where the rest of it
     is already; add proper breaks/replaces.
   * Update lintian overrides.
+  * Bump Standards-Version to 4.1.1, no changes required.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:19 +0100
 
