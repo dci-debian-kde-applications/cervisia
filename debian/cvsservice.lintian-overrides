@@ -1,4 +1,3 @@
-package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_cvsaskpass.so
 package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_cvsservice.so
 package-name-doesnt-match-sonames libkdeinit5-cvsaskpass libkdeinit5-cvsservice
 shlib-without-versioned-soname usr/lib/*/libkdeinit5_cvsaskpass.so libkdeinit5_cvsaskpass.so
