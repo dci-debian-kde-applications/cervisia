@@ -13,6 +13,8 @@ cervisia (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove breaks/replaces in cervisia against older versions of cvsservice:
     cervisia already requires the very same version of cvsservice.
   * Rename the local cvsservice man page to cvsservice5.
+  * Move few cvsaskpass bits from cervisia to cvsservice, where the rest of it
+    is already; add proper breaks/replaces.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:19 +0100
 

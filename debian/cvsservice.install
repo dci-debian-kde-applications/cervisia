@@ -1,5 +1,6 @@
 usr/bin/cvsaskpass
 usr/bin/cvsservice5
+usr/lib/*/libkdeinit5_cvsaskpass.so
 usr/lib/*/libkdeinit5_cvsservice.so
 usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsjob.xml
 usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
