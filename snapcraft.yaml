@@ -1,0 +1,48 @@
+---
+name: cervisia
+version: 17.08.1
+summary: graphical CVS client
+description: |-
+ Cervisia is a front-end for the CVS version control system client.
+ .
+ In addition to basic and advanced CVS operations, it provides a convenient
+ graphical interface for viewing, editing, and manipulating files in a CVS
+ repository or working directory.  It includes tools designed to ease the use
+ of CVS, such as a log browser, conflict resolver, and changelog editor that
+ checks for incorrect formatting.
+confinement: strict
+grade: stable
+apps:
+    cervisia:
+        command: kf5-launch cervisia
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    cervisia:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        source: https://download.kde.org/stable/applications/17.08.1/src/cervisia-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
